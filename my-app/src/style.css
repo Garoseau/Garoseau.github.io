@@ -1,0 +1,1266 @@
+/*todo PC 960+ */  
+@media only screen and (min-width: 960px) {
+/* 
+    border-image:conic-gradient(from 0deg at 50% 50%, #FF7A00 0deg, #FFB800 43.62deg, #317FF3 138.3deg, #52A1FF 246.8deg, #FF7A00 360deg);
+    border-image-slice: 1;
+    --------------
+    background-image: linear-gradient(180deg, rgba(246,113,18,1) 0%, rgba(251,187,18,1) 40%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+*/
+:root {
+    --text: #ffffff;
+    --noir: #151515;
+    --rouge: #f44056;
+    --bleu: #0c9d46;
+    --violet: #0c9d46;
+    --vert: #0c9d46;
+    --bleu_clair: #049cb7;
+    --violet_2: #622aff;
+    --bleu_foncé: #3d44c3;
+    --orange: #e66702;
+}
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 1;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+
+    background: #000000;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    
+    transition: 0.3s;
+
+    height: 100vh;
+    width: 100%;
+    flex-direction: center;
+}
+.content_wrapper{
+    height: 100vh;
+    width: 100%;
+    flex-direction: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+/** HEADER */
+
+h1{
+    text-decoration: none;
+    transition: all 0.1s;
+    cursor: pointer;
+    font-size: 36pt;
+    text-align: center;
+    color: #ffffff;
+}
+h1 a {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+h1:hover a:after {
+   opacity: 1;
+   right: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}    
+.navbar{
+    background: rgba(21, 21, 21, 0.8);
+    border-radius: 8px;
+    width: 960px;
+    height: 40px;
+    
+    color: #0A84FF;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    cursor: pointer;
+}
+.navbar span {
+    padding-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+}
+.navbar_text{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.navbar_text:hover {color: #ff7441;}
+
+
+/** SECTION  */
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 980px;
+    margin: auto;
+}
+
+
+/** BOX TEXT */
+.box{
+    z-index: 5;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    background: rgba(21, 21, 21, 0.8);
+    border-radius: 18px;
+    width: 960px;
+    margin-top: 14px;
+}
+h2{
+    margin:auto;
+    padding-top: 20px;
+
+    font-size: 34pt;
+    text-align: center;
+}
+.text {
+    border-radius: 30px;
+    text-align: justify;
+    justify-content: center;
+    display:flex;
+}
+.text ul{
+    padding-inline-start: 1em;
+
+}
+p {
+    width: 690px;
+    line-height: 1.4;
+    font-size: 16pt;
+}
+.skill{
+    padding-top: 20px;
+}
+.skill_name{
+    display: flex;
+    justify-content:space-between ;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+.icon{
+
+    padding-right: 8px;
+    padding-left: 16px;
+}
+
+
+aside{
+    position: relative;
+    margin: auto;
+    top: 0;
+    z-index: 10;
+    width: 84px;
+    
+
+}
+.box_aside{
+    position: absolute;
+    left: 554px;
+    bottom: 400px;
+    width: 160px;
+    z-index: 2;
+    justify-content: center;
+    background-color: rgba(21, 21, 21, 0.8);
+    border-radius: 12px;
+}
+.icon_2{
+    margin: auto;
+    padding: 6px;
+
+}
+
+
+/** PORTFOLIO GRID grid-teplate-areas */
+.grid{
+    margin: 26px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(300px, auto);
+    row-gap: 26px;
+    column-gap: 26px;
+	color:transparent;
+}
+.grid>div {
+	background-position:center center;
+    background-size: cover;
+    display: grid;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: box-shadow .3s;
+}
+.grid>div:hover{
+    box-shadow:  0 5px 10px rgba(14, 14, 14, 0.8);
+}
+.grid1{
+    grid-row: 1;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/027/584/976/large/julien-garoseau-gomes-ascenseura.jpg?1591950082);
+}
+.grid2{
+    grid-row: 1;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/023/683/685/large/julien-garoseau-gomes-asscendrake-render-v5.jpg?1580022377);
+}
+.grid3{
+    grid-row: 1;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/027/839/028/large/julien-garoseau-gomes-gladius-concept-screen-ui.jpg?1592708367);
+}
+.grid4{
+    grid-row: 2;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/020/889/735/large/garoseau-gd-stands.jpg?1569555560);
+}
+.grid5{
+    grid-row: 2;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/890/large/julien-gomes-01-03-page-001.jpg?1562580871);
+}
+.grid6{
+    grid-row: 2;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/558/large/julien-gomes-01-02-01.jpg?1562579150);
+}
+.grid7{    
+    grid-row: 3;
+    background-image: url(https://static1.millenium.org/articles/6/37/04/76/@/1403752-patch-alpha-312-article_image_bd-5.jpg);
+}
+.grid8{    
+    grid-row: 3;
+    background-image: url(https://static1.millenium.org/articles/9/36/91/29/@/1391548-v-ui-gladius3-article_image_bd-4.png);
+}
+.grid9{
+    grid-row: 3;
+    background-image: url(https://static1.millenium.org/articles/3/36/34/53/@/1330101-v-sc-companion-3-article_image_bd-4.png);
+}
+
+
+/** FORMULAIRE */
+input {
+    margin-top: 16px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    border-color: green;
+    border: 1px solid #303030;
+    background-color: rgba(14, 14, 14, 0.9);
+    color: var(--text);
+    height: 40px;
+    width: 690px;
+    font-size: 16pt;
+    font-family: 'Chakra Petch', sans-serif;
+}
+textarea{
+    color: var(--text);
+    margin-top: 16px;
+    
+    max-width: 690px;
+    max-height: 600px;
+    border-radius: 8px;
+    border-color: #303030;
+    background-color: rgba(14, 14, 14, 0.9);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16pt;
+}    
+.form {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    line-gap-override: 20px;
+}
+.message {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.message input {
+    color: #ffffff;
+} 
+input:focus{
+    border-color: #0c9d46;
+    outline: none;
+}
+input:hover{
+    color: #ff7441;
+    transition: 0.5s;
+
+}
+textarea:focus{
+    border-color: #0c9d46;
+    outline: none;
+}
+li {
+    list-style: inside;
+    line-height: 30px;
+}
+}
+  
+/*todo PC 900/960*/
+@media only screen and (min-width: 900px) and (max-width: 960px) {
+    /* 
+        border-image:conic-gradient(from 0deg at 50% 50%, #FF7A00 0deg, #FFB800 43.62deg, #317FF3 138.3deg, #52A1FF 246.8deg, #FF7A00 360deg);
+        border-image-slice: 1;
+        --------------
+        background-image: linear-gradient(180deg, rgba(246,113,18,1) 0%, rgba(251,187,18,1) 40%, rgba(148,187,233,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+        
+    */
+    :root {
+        --text: #ffffff;
+        --noir: #151515;
+        --rouge: #f44056;
+        --bleu: #0c9d46;
+        --violet: #0c9d46;
+        --vert: #0c9d46;
+        --bleu_clair: #049cb7;
+        --violet_2: #622aff;
+        --bleu_foncé: #3d44c3;
+        --orange: #e66702;
+    }
+    body {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 1rem;
+        font-weight: 400px;
+        line-height: 1;
+        color: #ffffff;
+    
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    
+        background: #000000;
+        background-image: url(../img/background.jpg);
+        background-size: cover;
+        
+        transition: 0.3s;
+    
+        height: 100vh;
+        width: 100%;
+        flex-direction: center;
+    }
+    .content_wrapper{
+        height: 100vh;
+        width: 100%;
+        flex-direction: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    /** HEADER */
+    
+    h1{
+        text-decoration: none;
+        transition: all 0.1s;
+        cursor: pointer;
+        font-size: 36pt;
+        text-align: center;
+        color: #ffffff;
+    }
+    h1 a {
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    h1:hover a:after {
+       opacity: 1;
+       right: 0;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }    
+    .navbar{
+        background: rgba(21, 21, 21, 0.8);
+        border-radius: 8px;
+        width: 800px;
+        height: 40px;
+        
+        color: #0A84FF;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+    
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    
+        cursor: pointer;
+    }
+    .navbar span {
+        padding-top: 10px;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0.5s;
+    }
+    .navbar_text{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .navbar_text:hover {color: #ff7441;}
+    
+    
+    /** SECTION  */
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 800px;
+        margin: auto;
+    }
+    
+    
+    /** BOX TEXT */
+    .box{
+        z-index: 5;
+        position: relative;
+        margin: auto;
+        justify-content: center;
+        background: rgba(21, 21, 21, 0.8);
+        border-radius: 18px;
+        width: 800px;
+        margin-top: 14px;
+    }
+    h2{
+        margin:auto;
+        padding-top: 20px;
+    
+        font-size: 34pt;
+        text-align: center;
+    }
+    .text {
+        border-radius: 30px;
+        text-align: justify;
+        justify-content: center;
+        display:flex;
+    }
+    .text ul{
+        padding-inline-start: 1em;
+    
+    }
+    p {
+        width: 690px;
+        line-height: 1.4;
+        font-size: 16pt;
+    }
+    .skill{
+        padding-top: 20px;
+    }
+    .skill_name{
+        display: flex;
+        justify-content:space-between ;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        line-height: 2;
+    }
+    .icon{
+    
+        padding-right: 8px;
+        padding-left: 16px;
+    }
+    
+
+    .box_aside{
+        position: absolute;
+        left: 554px;
+        bottom: 400px;
+        width: 160px;
+        z-index: 2;
+        justify-content: center;
+        background-color: rgba(21, 21, 21, 0.8);
+        border-radius: 12px;
+    }
+    .icon_2{
+        margin: auto;
+        padding: 6px;
+    
+    }
+    
+    
+    /** PORTFOLIO GRID grid-teplate-areas */
+    .grid{
+        margin: 26px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        grid-gap: 0px;
+        grid-auto-rows: minmax(300px, auto);
+        row-gap: 16px;
+        column-gap: 16px;
+        color:transparent;
+    }
+    .grid>div {
+        background-position:center center;
+        background-size: cover;
+        display: grid;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: box-shadow .3s;
+    }
+    .grid>div:hover{
+        box-shadow:  0 5px 10px rgba(14, 14, 14, 0.8);
+    }
+    .grid1{
+        grid-row: 1;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/027/584/976/large/julien-garoseau-gomes-ascenseura.jpg?1591950082);
+    }
+    .grid2{
+        grid-row: 1;
+        background-image: url(https://cdnb.artstation.com/p/assets/images/images/023/683/685/large/julien-garoseau-gomes-asscendrake-render-v5.jpg?1580022377);
+    }
+    .grid3{
+        grid-row: 1;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/027/839/028/large/julien-garoseau-gomes-gladius-concept-screen-ui.jpg?1592708367);
+    }
+    .grid4{
+        grid-row: 2;
+        background-image: url(https://cdnb.artstation.com/p/assets/images/images/020/889/735/large/garoseau-gd-stands.jpg?1569555560);
+    }
+    .grid5{
+        grid-row: 2;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/890/large/julien-gomes-01-03-page-001.jpg?1562580871);
+    }
+    .grid6{
+        grid-row: 2;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/558/large/julien-gomes-01-02-01.jpg?1562579150);
+    }
+    .grid7{    
+        grid-row: 3;
+        background-image: url(https://static1.millenium.org/articles/6/37/04/76/@/1403752-patch-alpha-312-article_image_bd-5.jpg);
+    }
+    .grid8{    
+        grid-row: 3;
+        background-image: url(https://static1.millenium.org/articles/9/36/91/29/@/1391548-v-ui-gladius3-article_image_bd-4.png);
+    }
+    .grid9{
+        grid-row: 3;
+        background-image: url(https://static1.millenium.org/articles/3/36/34/53/@/1330101-v-sc-companion-3-article_image_bd-4.png);
+    }
+    
+    
+    /** FORMULAIRE */
+    input {
+        margin-top: 16px;
+        display: flex;
+        border-radius: 4px;
+        justify-content: center;
+        border-color: green;
+        border: 1px solid #303030;
+        background-color: rgba(14, 14, 14, 0.9);
+        color: var(--text);
+        height: 40px;
+        width: 690px;
+        font-size: 16pt;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+    textarea{
+        color: var(--text);
+        margin-top: 16px;
+        
+        max-width: 690px;
+        max-height: 600px;
+        border-radius: 8px;
+        border-color: #303030;
+        background-color: rgba(14, 14, 14, 0.9);
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16pt;
+    }    
+    .form {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        line-gap-override: 20px;
+    }
+    .message {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        max-width: 100px;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+    }
+    .message input {
+        color: #ffffff;
+    } 
+    input:focus{
+        border-color: #0c9d46;
+        outline: none;
+    }
+    input:hover{
+        color: #ff7441;
+        transition: 0.5s;
+    
+    }
+    textarea:focus{
+        border-color: #0c9d46;
+        outline: none;
+    }
+    li {
+        list-style: inside;
+        line-height: 30px;
+    }
+    }
+
+/*todo PC 600/900 */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    /* 
+        border-image:conic-gradient(from 0deg at 50% 50%, #FF7A00 0deg, #FFB800 43.62deg, #317FF3 138.3deg, #52A1FF 246.8deg, #FF7A00 360deg);
+        border-image-slice: 1;
+        --------------
+        background-image: linear-gradient(180deg, rgba(246,113,18,1) 0%, rgba(251,187,18,1) 40%, rgba(148,187,233,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+        
+    */
+    :root {
+        --text: #ffffff;
+        --noir: #151515;
+        --rouge: #f44056;
+        --bleu: #0c9d46;
+        --violet: #0c9d46;
+        --vert: #0c9d46;
+        --bleu_clair: #049cb7;
+        --violet_2: #622aff;
+        --bleu_foncé: #3d44c3;
+        --orange: #e66702;
+    }
+    body {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 1rem;
+        font-weight: 400px;
+        line-height: 1;
+        color: #ffffff;
+    
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    
+        background: #000000;
+        background-image: url(../img/background.jpg);
+        background-size: cover;
+        
+        transition: 0.3s;
+    
+        height: 100vh;
+        width: 100%;
+        flex-direction: center;
+    }
+    .content_wrapper{
+        height: 100vh;
+        width: 100%;
+        flex-direction: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    /** HEADER */
+    
+    h1{
+        text-decoration: none;
+        transition: all 0.1s;
+        cursor: pointer;
+        font-size: 36pt;
+        text-align: center;
+        color: #ffffff;
+    }
+    h1 a {
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    h1:hover a:after {
+       opacity: 1;
+       right: 0;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }    
+    .navbar{
+        background: rgba(21, 21, 21, 0.8);
+        border-radius: 8px;
+        width: 800px;
+        height: 40px;
+        
+        color: #0A84FF;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+    
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    
+        cursor: pointer;
+    }
+    .navbar span {
+        padding-top: 10px;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0.5s;
+    }
+    .navbar_text{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .navbar_text:hover {color: #ff7441;}
+    
+    
+    /** SECTION  */
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 800px;
+        margin: auto;
+    }
+    
+    
+    /** BOX TEXT */
+    .box{
+        z-index: 5;
+        position: relative;
+        margin: auto;
+        justify-content: center;
+        background: rgba(21, 21, 21, 0.8);
+        border-radius: 18px;
+        width: 800px;
+        margin-top: 14px;
+    }
+    h2{
+        margin:auto;
+        padding-top: 20px;
+    
+        font-size: 34pt;
+        text-align: center;
+    }
+    .text {
+        border-radius: 30px;
+        text-align: justify;
+        justify-content: center;
+        display:flex;
+    }
+    .text ul{
+        padding-inline-start: 1em;
+    
+    }
+    p {
+        width: 690px;
+        line-height: 1.4;
+        font-size: 16pt;
+    }
+    .skill{
+        padding-top: 20px;
+    }
+    .skill_name{
+        display: flex;
+        justify-content:space-between ;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        line-height: 2;
+    }
+    .icon{
+    
+        padding-right: 8px;
+        padding-left: 16px;
+    }
+    
+
+    .box_aside{
+        position: absolute;
+        left: 554px;
+        bottom: 400px;
+        width: 160px;
+        z-index: 2;
+        justify-content: center;
+        background-color: rgba(21, 21, 21, 0.8);
+        border-radius: 12px;
+    }
+    .icon_2{
+        margin: auto;
+        padding: 6px;
+    
+    }
+    
+    
+    /** PORTFOLIO GRID grid-teplate-areas */
+    .grid{
+        margin: 26px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-gap: 0px;
+        grid-auto-rows: minmax(250px, auto);
+        row-gap: 16px;
+        column-gap: 16px;
+        color:transparent;
+    }
+    .grid>div {
+        background-position:center center;
+        background-size: cover;
+        display: grid;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: box-shadow .3s;
+    }
+    .grid>div:hover{
+        box-shadow:  0 5px 10px rgba(14, 14, 14, 0.8);
+    }
+    .grid1{
+        grid-row: 1;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/027/584/976/large/julien-garoseau-gomes-ascenseura.jpg?1591950082);
+    }
+    .grid2{
+        grid-row: 1;
+        background-image: url(https://cdnb.artstation.com/p/assets/images/images/023/683/685/large/julien-garoseau-gomes-asscendrake-render-v5.jpg?1580022377);
+    }
+    .grid3{
+        grid-row: 1;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/027/839/028/large/julien-garoseau-gomes-gladius-concept-screen-ui.jpg?1592708367);
+    }
+    .grid4{
+        grid-row: 2;
+        background-image: url(https://cdnb.artstation.com/p/assets/images/images/020/889/735/large/garoseau-gd-stands.jpg?1569555560);
+    }
+    .grid5{
+        grid-row: 2;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/890/large/julien-gomes-01-03-page-001.jpg?1562580871);
+    }
+    .grid6{
+        grid-row: 2;
+        background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/558/large/julien-gomes-01-02-01.jpg?1562579150);
+    }
+    .grid7{    
+        grid-row: 3;
+        background-image: url(https://static1.millenium.org/articles/6/37/04/76/@/1403752-patch-alpha-312-article_image_bd-5.jpg);
+    }
+    .grid8{    
+        grid-row: 3;
+        background-image: url(https://static1.millenium.org/articles/9/36/91/29/@/1391548-v-ui-gladius3-article_image_bd-4.png);
+    }
+    .grid9{
+        grid-row: 3;
+        background-image: url(https://static1.millenium.org/articles/3/36/34/53/@/1330101-v-sc-companion-3-article_image_bd-4.png);
+    }
+    
+    
+    /** FORMULAIRE */
+    input {
+        margin-top: 16px;
+        display: flex;
+        border-radius: 4px;
+        justify-content: center;
+        border-color: green;
+        border: 1px solid #303030;
+        background-color: rgba(14, 14, 14, 0.9);
+        color: var(--text);
+        height: 40px;
+        width: 690px;
+        font-size: 16pt;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+    textarea{
+        color: var(--text);
+        margin-top: 16px;
+        
+        max-width: 690px;
+        max-height: 600px;
+        border-radius: 8px;
+        border-color: #303030;
+        background-color: rgba(14, 14, 14, 0.9);
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16pt;
+    }    
+    .form {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        line-gap-override: 20px;
+    }
+    .message {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        max-width: 100px;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+    }
+    .message input {
+        color: #ffffff;
+    } 
+    input:focus{
+        border-color: #0c9d46;
+        outline: none;
+    }
+    input:hover{
+        color: #ff7441;
+        transition: 0.5s;
+    
+    }
+    textarea:focus{
+        border-color: #0c9d46;
+        outline: none;
+    }
+    li {
+        list-style: inside;
+        line-height: 30px;
+    }
+    }
+
+/*todo MOBILE 0/600 */
+@media  (min-width: 0px) and (max-width: 600px) {
+    :root {
+    --text: #ffffff;
+    --noir: #151515;
+    --rouge: #f44056;
+    --bleu: #0c9d46;
+    --violet: #0c9d46;
+    --vert: #0c9d46;
+    --bleu_clair: #049cb7;
+    --violet_2: #622aff;
+    --bleu_foncé: #3d44c3;
+    --orange: #e66702;
+}
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 1;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+
+    background: #000000;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    
+    transition: 0.3s;
+
+    height: 100vh;
+    width: 100%;
+    flex-direction: center;
+}
+.content_wrapper{
+    height: 100vh;
+    width: 100%;
+    flex-direction: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+/** HEADER */
+
+h1{
+    text-decoration: none;
+    transition: all 0.1s;
+    cursor: pointer;
+    font-size: 36pt;
+    text-align: center;
+    color: #ffffff;
+}
+h1 a {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+h1:hover a:after {
+   opacity: 1;
+   right: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}    
+.navbar{
+    background: rgba(21, 21, 21, 0.8);
+    border-radius: 8px;
+    width: 480px;
+    height: 40px;
+    
+    color: #0A84FF;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    cursor: pointer;
+}
+.navbar span {
+    padding-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+}
+.navbar_text{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navbar_text:hover {color: #ff7441;}
+
+
+/** SECTION  */
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+
+/** BOX TEXT */
+.box{
+    z-index: 5;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    background: rgba(21, 21, 21, 0.8);
+    border-radius: 18px;
+    width: 460px;
+    margin-top: 14px;
+}
+h2{
+    margin:auto;
+    padding-top: 20px;
+
+    font-size: 34pt;
+    text-align: center;
+}
+.text {
+    border-radius: 30px;
+    text-align: justify;
+    justify-content: center;
+    display:flex;
+}
+.text ul{
+    padding-inline-start: 1em;
+
+}
+p {
+    width: 440px;
+    line-height: 1.4;
+    font-size: 12pt;
+}
+.skill{
+    padding-top: 20px;
+}
+.skill_name{
+    display: flex;
+    justify-content:space-between ;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+.icon{
+
+    padding-right: 8px;
+    padding-left: 16px;
+}
+
+
+aside{
+    position: relative;
+    margin: auto;
+    top: 0;
+    z-index: 10;
+    width: 84px;
+    
+
+}
+.box_aside{
+    position: absolute;
+    left: 554px;
+    bottom: 400px;
+    width: 160px;
+    z-index: 2;
+    justify-content: center;
+    background-color: rgba(21, 21, 21, 0.8);
+    border-radius: 12px;
+}
+.icon_2{
+    margin: auto;
+    padding: 6px;
+
+}
+
+
+
+
+/** PORTFOLIO GRID grid-teplate-areas */
+.grid{
+    margin: 10px;
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: 200px 200px;
+    column-gap: 16px;
+    row-gap: 16px;
+    border-radius:30px;
+
+	color:transparent;
+}
+.grid>div{
+    background-position:center center;
+    background-size: cover;
+    border-radius:30px;
+    display: grid;
+	cursor:pointer;
+    transition: box-shadow .3s;
+}
+.grid>div:hover{box-shadow: 0 5px 10px rgba(14, 14, 14, 0.8); }
+
+   
+.grid1{
+    grid-row: 1;
+    /*
+    background-color: #151515;
+    border-radius: 20px;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/027/584/976/large/julien-garoseau-gomes-ascenseura.jpg?1591950082);
+    color: transparent;
+    text-decoration: none;
+*/
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/027/584/976/large/julien-garoseau-gomes-ascenseura.jpg?1591950082);
+}
+.grid2{
+    grid-row: 1;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/023/683/685/large/julien-garoseau-gomes-asscendrake-render-v5.jpg?1580022377);
+}
+.grid3{
+    grid-row: 2;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/027/839/028/large/julien-garoseau-gomes-gladius-concept-screen-ui.jpg?1592708367);
+}
+.grid4{
+    grid-row: 2;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/020/889/735/large/garoseau-gd-stands.jpg?1569555560);
+}
+.grid5{
+    grid-row: 3;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/890/large/julien-gomes-01-03-page-001.jpg?1562580871);
+}
+.grid6{
+    grid-row: 3;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/019/222/558/large/julien-gomes-01-02-01.jpg?1562579150);
+}
+.grid7{    
+    grid-row: 4;
+    background-image: url(https://static1.millenium.org/articles/6/37/04/76/@/1403752-patch-alpha-312-article_image_bd-5.jpg);
+}
+.grid8{    
+    grid-row:4;
+    background-image: url(https://static1.millenium.org/articles/9/36/91/29/@/1391548-v-ui-gladius3-article_image_bd-4.png);
+}
+.grid9{
+    grid-row: 5;
+    background-image: url(https://static1.millenium.org/articles/3/36/34/53/@/1330101-v-sc-companion-3-article_image_bd-4.png);
+}
+
+
+
+/** FORMULAIRE */
+input {
+    margin-top: 16px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    border-color: green;
+    border: 1px solid #303030;
+    background-color: rgba(14, 14, 14, 0.9);
+    color: var(--text);
+    height: 40px;
+    width: 460px;
+    font-size: 16pt;
+    font-family: 'Chakra Petch', sans-serif;
+}
+textarea{
+    color: var(--text);
+    margin-top: 16px;
+    
+    max-width: 460px;
+    max-height: 600px;
+    border-radius: 8px;
+    border-color: #303030;
+    background-color: rgba(14, 14, 14, 0.9);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16pt;
+}    
+.form {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    line-gap-override: 20px;
+}
+.message {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.message input {
+    color: #ffffff;
+} 
+input:focus{
+    border-color: #0c9d46;
+    outline: none;
+}
+input:hover{
+    color: #ff7441;
+    transition: 0.5s;
+
+}
+textarea:focus{
+    border-color: #0c9d46;
+    outline: none;
+}
+li {
+    list-style: inside;
+    line-height: 30px;
+}
+
+}
