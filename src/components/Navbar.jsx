@@ -7,7 +7,7 @@ function Navbar() {
  return (
  <>
  	<div class="navbar">
-		<a className='gradient gB anime navbar_text' to="/">Julien "Garoseau" Gomes</a>
+		<Link className='gradient gB anime navbar_text' to="/">Julien "Garoseau" Gomes</Link>
  		<Link className='gradient gB anime navbar_text' to="/Work">Work</Link>
  		<Link className='gradient gB anime navbar_text' to="/Propos">About</Link>
  		<Link className='gradient gB anime navbar_text' to="/Contact">Contact</Link>
