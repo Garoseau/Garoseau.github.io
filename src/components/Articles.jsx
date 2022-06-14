@@ -1,6 +1,6 @@
 import { CardMedia, Button, CardActions, CardContent, Typography, Card, Cards } from '@mui/material';
 import React from 'react'
-import '../App.css';
+import '../App.scss';
 import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
