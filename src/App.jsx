@@ -16,13 +16,13 @@ return (
     <Routes>
 
       <Route element={<Navbar />}>
-
+        <Route path="/" element={<Home />}/>
         <Route path="/Work" element={<Articles />}/>
         <Route path="/Propos" element={<Propos />}/>
         <Route path="/Contact" element={<Contact />}/>
 
       </Route>
-      
+
     </Routes>
   </BrowserRouter>
 
