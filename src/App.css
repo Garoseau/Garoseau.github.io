@@ -168,23 +168,25 @@
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 34pt;
   }
   h2 {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 6px;
     padding-bottom: 20px;
     font-size: 24pt;
-    font-weight: normal;
+    line-height: 36px;
+    font-weight:600;
   }
   h6 {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    padding-bottom: 4px;
     font-size: 12pt;
     font-weight: normal;
 
