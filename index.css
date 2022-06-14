@@ -4,8 +4,8 @@
     --text: #ffffff;
     --noir: #151515;
     --rouge: #f44056;
-    --bleu: #0c9d46;
-    --violet: #0c9d46;
+    --bleu: #2d8feb;
+    --violet: #a03cce;
     --vert: #0c9d46;
     --bleu_clair: #049cb7;
     --violet_2: #622aff;
@@ -57,7 +57,7 @@
     padding-top: 10px;
     cursor: pointer;
   }
-  .navbar_text {
+  .navbar .textNavbar {
     padding-top: 10px;
     cursor: pointer;
     display: inline-block;
@@ -79,13 +79,13 @@
     margin-top: 14px;
     border: #2b2b2b solid 1px;
   }
-  .box.centre {
+  .box .centre {
     margin-top: 140px;
   }
-  .boxGrid {
+  .box .Grid {
     margin-top: 20px;
   }
-  .boxCard {
+  .box .Card {
     margin: auto;
     display: flex;
   }

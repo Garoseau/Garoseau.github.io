@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Contact() {
 	return (	
-		<div class='box centre'>
+		<div class='box  centre Grid'>
 			<form action="mailto:julien.gomes.school@gmail.com" method="post" autocomplete="off">
 
 				<div class="form">
