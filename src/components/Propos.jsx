@@ -11,7 +11,7 @@ import { Outlet } from 'react-router-dom';
 
 				<section>
 					<div class="box centre">
-						<h2 class="gradient gB anime">This is a damn test</h2>
+						<h2 class="gradient gB anime text">This is a damn test</h2>
 						<div class="text">
 							<p class="gC">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus ex vel volutpat
 								finibus. Integer tempor nisi non accumsan pharetra. Duis consectetur blandit metus, nec mattis risus

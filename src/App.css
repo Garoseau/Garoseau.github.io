@@ -24,7 +24,6 @@
 
     background: #000000;
     /* background-image: url(../img/background.jpg);  */
-    background-image: url(../img/background3.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -150,21 +149,51 @@
   /** TEXT */
   .text {
     border-radius: 30px;
-    text-align: justify;
-    justify-content: center;
+    text-align: left;
+    justify-content:center;
+    display: flex;
+    color: #e2e2e2;
+  }
+  .textBaseline {
+    border-radius: 30px;
+    text-align: left;
+    justify-content:baseline;
     display: flex;
     color: #e2e2e2;
   }
   .grey {
     color: #A1A1A6;
   }
-  h2 {
+  h1 {
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     font-size: 34pt;
-    text-align: center;
+  }
+  h2 {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24pt;
+    font-weight: normal;
+  }
+  h6 {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 12pt;
+    font-weight: normal;
+
   }
   p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 690px;
     line-height: 1.4;
     font-size: 16pt;

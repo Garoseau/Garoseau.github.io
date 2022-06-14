@@ -4,25 +4,11 @@ import React from 'react'
 export default function Home() {
 	return (	
 		<div class='box centre'>
-			<form action="mailto:julien.gomes.school@gmail.com" method="post" autocomplete="off">
-
-				<div class="form">
-					<input type="text" name="nom" id="nom" placeholder="Nom" required="requis" autocomplete="off" />
-
-					<input type="text" name="prénom" id="prénom" placeholder="Prénom" required="requis" autocomplete="off" />
-
-					<input type="email" name="email" id="email" placeholder="Email" required="requis" autocomplete="off" />
-
-					<textarea name="message" id="message" cols="80" rows="8" placeholder="Ecrivez-moi."
-						required="requis"></textarea>
-				</div>
-
-				<div class="buttonbox">
-					<input class="button" type="reset" value="annuler" />
-					<input class="button" type="submit" value="envoyer" />
-				</div>
-
-			</form>
+			<div class=''>
+			<h6 className='textBaseline, grey'>Bonjour, je m'appelle</h6>
+			<h1 className='textBaseline,'>Julien Gomes</h1>
+			<h2 className='textBaseline, grey'>Je suis actuellement étudiant en développement web. Je suis actuellement en plein travail sur ce petit portfolio </h2>
+			</div>
 		</div>
 	)
 }
