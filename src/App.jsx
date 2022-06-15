@@ -7,26 +7,22 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Propos from './components/Propos';
 import Contact from './components/Contact'
+import SocialMedia from './components/SocialMedia';
 
 
 function App() {
 return (
 <>
-
   <BrowserRouter>
     <Routes>
-
-      <Route element={<Navbar />}>
-        <Route path="/" element={<Home />}/>
-        <Route path="/Work" element={<Articles />}/>
-        <Route path="/Propos" element={<Propos />}/>
-        <Route path="/Contact" element={<Contact />}/>
-
+      <Route element={<Navbar/>}>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Work" element={<Articles/>}/>
+        <Route path="/Propos" element={<Propos/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
       </Route>
-
     </Routes>
   </BrowserRouter>
-
 </>
 );
 }

@@ -5,6 +5,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import { CardActionArea } from '@mui/material';
+import SocialMedia from './SocialMedia';
 
 const theme = createTheme();
 
@@ -20,7 +21,6 @@ theme.typography.h6 = {
 
 export default function Articles() {
 	return (
-
 <Grid data-aos="fade-up" justifyContent={'center'} container spacing={6} rowSpacing={6} xs={12} key={Articles.id}
 	sx={{mt: 2, maxHeight:760}}>
 

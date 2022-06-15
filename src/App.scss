@@ -22,7 +22,7 @@
     margin: 0;
     align-items: center;
 
-    background: #000000;
+    background: #0a0a0a;
     /* background-image: url(../img/background.jpg);  */
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,6 +97,28 @@
       display: flex;
       
     }
+  }
+  .boxInvisible{
+    z-index: 5;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    width: 1024px;
+    .centre {
+      margin-top: 140px;
+    }
+  }
+  .boxRS{
+    z-index: 5;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    padding-left: 50px;
+    padding-top: 480px;
+  }
+  .RS{
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 
   /** GRADIENT  */
@@ -322,11 +344,11 @@
   }
   a {
   text-decoration: transparent;
+  display: flex;
   }
 
   /** ICON */
 .Icon{
-  background-image: url('../img/round_power_settings_new_white_48dp.png');
     height: 20px;
     width: 20px;
     display: block;
