@@ -8,12 +8,12 @@ function Navbar() {
  return (
  <>
  	<div class="navbar">
-		<Link className='gradient gB anime textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/">Julien "Garoseau" Gomes</Link>
- 		<Link className='gradient gB anime textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/Work">Work</Link>
- 		<Link className='gradient gB anime textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/Propos">About</Link>
- 		<Link className='gradient gB anime textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/Contact">Contact</Link>
-		<a className='gradient gB anime textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear">|</a>
- 		<a class="gradient gB anime textNavbar" data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" href="https://www.millenium.org/games/game-376" target="_blank">MGG StarCitizen</a>
+		<Link className='textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/">Julien "Garoseau" Gomes</Link>
+ 		<Link className='textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/Work">Work</Link>
+ 		<Link className='textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/Propos">About</Link>
+ 		<Link className='textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/Contact">Contact</Link>
+		<a className='textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear">|</a>
+ 		<a class='textNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" href="https://www.millenium.org/games/game-376" target="_blank">MGG StarCitizen</a>
  	</div>
 
  	<Outlet />
