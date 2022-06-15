@@ -21,7 +21,7 @@ theme.typography.h6 = {
 export default function Articles() {
 	return (
 
-<Grid justifyContent={'center'} container spacing={6} rowSpacing={6} xs={12} key={Articles.id}
+<Grid data-aos="fade-up" justifyContent={'center'} container spacing={6} rowSpacing={6} xs={12} key={Articles.id}
 	sx={{mt: 2, maxHeight:760}}>
 
 <ThemeProvider theme={theme}>
@@ -98,8 +98,6 @@ export default function Articles() {
 				</CardActions>
 			</Card>
 		</Grid>
-
-
 
 		<Grid item xs={'auto'}>
 			<Card

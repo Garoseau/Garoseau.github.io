@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 
 		<>
 			<Outlet />
-			<div class="content_wrapper">
+			<div data-aos="fade-up" class="content_wrapper">
 
 				<section>
 					<div class="box centre">

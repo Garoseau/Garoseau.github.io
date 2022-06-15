@@ -12,7 +12,7 @@
     --orange: #e66702;
   }
   :root {
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 400px;
     line-height: 1;
@@ -52,8 +52,7 @@
     backdrop-filter: saturate(180%) blur(20px);
     color: #e2e2e2;
     font-size: 16pt;
-    font-weight: bold;
-    text-align: center;
+    text-align: end;
 
     display: flexbox;
     justify-content: center;
@@ -71,6 +70,7 @@
       color: inherit;
       margin-left: 25px;
       margin-right: 25px;
+      
     }
   }
 

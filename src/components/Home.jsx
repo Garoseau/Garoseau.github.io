@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Home() {
 	return (	
-		<div class='box centre'>
+		<div data-aos="fade-up" class='box centre'>
 			<div class=''>
 			<h6 className='textBaseline, grey'>Bonjour, je m'appelle</h6>
 			<h1 className='textBaseline,'>Julien Gomes</h1>
