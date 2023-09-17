@@ -1,9 +1,8 @@
-import '../App.scss';
+import '../App.sass';
 import React from 'react'
 import { Outlet } from 'react-router-dom';
-import SocialMedia from './SocialMedia';
 
-  function Propos() {
+  function About() {
 	return (
 
 		<>
@@ -11,8 +10,8 @@ import SocialMedia from './SocialMedia';
 			<div data-aos="fade-up" class="content_wrapper">
 
 				<section>
-					<div class="boxInvisible centre">
-						<h2 class="gradient gA anime text">à venir...</h2>
+					<div class="Foreground centre">
+						<p class="">à venir...</p>
 					</div>
 				</section>
 
@@ -21,4 +20,4 @@ import SocialMedia from './SocialMedia';
 		</>
 		)
 	}
-	export default Propos;
+	export default About;

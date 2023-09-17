@@ -1,0 +1,148 @@
+@media only screen and (min-width: 0px) 
+  :root 
+    --text: #dddddd
+    --noir: #151515
+    --rouge: #f44056
+    --bleu: #6DB9FF
+    --violet: #a03cce
+    --vert: #0c9d46
+    --bleu_clair: #049cb7
+    --violet_2: #622aff
+    --bleu_foncé: #3d44c3
+    --orange: #e66702
+    --pirmary-color-transparent: rgba(16, 16, 16, 0.80)
+  
+  :root 
+    font-family: 'Roboto', sans-serif
+    font-size: 1rem
+    font-weight: 400px
+    line-height: 1
+    color: #ffffff
+
+    justify-content: center
+    margin: 0
+    align-items: center
+
+    background: #0a0a0a
+    /* background-image: url(../img/background.jpg);  */
+    background-size: cover
+    background-repeat: no-repeat
+    transition: 0.3s
+    height: 100vh
+    width: 100%
+    flex-direction: center
+
+  :root::-webkit-scrollbar 
+    display: none
+    scrollbar-width: none
+
+.content_wrapper 
+    flex-direction: center
+    position: relative
+    z-index: 1
+    scrollbar-width: none
+
+  
+/** Navigation Bar */
+.header
+  padding-top: .5em
+  padding-bottom: .5em
+  border-radius: 5px
+  width: 100%
+	
+
+.navbar 
+    display: flex
+    flex-direction: row
+    padding: 0px 50px
+    padding-bottom: 10px
+    align-items: flex-end
+    border-bottom: 1px solid var(--Outlines, #505050)
+    background: var(--pirmary-color-transparent)
+
+.navbarLeft
+  display: flex
+  flex: auto
+  flex-direction: row
+  justify-content: flex-start
+
+.navbarRight
+  display: flex
+  flex: auto
+  flex-direction: row
+  justify-content: flex-end
+  gap: 40px
+
+.TextNavbar
+    display: flex
+    justify-content: right
+    align-items: center
+    font-size: 24px
+    font-style: bold
+    font-weight: 400
+    line-height: normal
+    
+.TextNavbar2
+    display: flex
+    justify-content: left
+    align-items: center
+    font-size: 24px
+    font-style: bold
+    font-weight: 400
+    line-height: normal
+
+a
+    text-decoration: none
+    color: var(--text)
+a:hover
+  color: var(--bleu)
+
+
+
+/** Foreground */
+  .Foreground
+    display: flex
+    padding: 220px 0px
+    justify-content:center
+    align-items: center
+    gap: 10px
+    align-self: stretch
+
+  .ForegroundSocials
+    display: flexbox
+    flex: auto
+    justify-content:center
+    align-items: center
+    gap: 20px
+  
+  /** SocialMedia */
+.Socials
+  display: flex
+  flex: auto
+  flex-direction: row
+  justify-content: flex-end
+  gap: 40px
+
+
+/** Text */
+.global
+  margin: 0
+  padding: 0
+
+.Title
+  color: var(--text)
+  text-align: center
+  font-family: Roboto
+  font-size: 200px
+  font-style: normal
+  font-weight: 700
+  line-height: normal
+  margin-bottom: 0px
+
+.SubText
+  color: var(--text)
+  text-align: center
+  font-family: Roboto
+  font-size: 24px
+  margin: 0px
+

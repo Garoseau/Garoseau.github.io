@@ -1,13 +1,11 @@
-import './App.scss';
+import './App.sass';
 import React from 'react';
-import Articles from './components/Articles';
+import Articles from './components/Work';
 import { BrowserRouter } from "react-router-dom";
 import { Link, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Propos from './components/Propos';
-import Contact from './components/Contact'
-import SocialMedia from './components/SocialMedia';
+import About from './components/About';
 
 
 function App() {
@@ -18,8 +16,7 @@ return (
       <Route element={<Navbar/>}>
         <Route path="/" element={<Home/>}/>
         <Route path="/Work" element={<Articles/>}/>
-        <Route path="/Propos" element={<Propos/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/About" element={<About/>}/>
       </Route>
     </Routes>
   </BrowserRouter>
