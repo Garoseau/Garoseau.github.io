@@ -14,7 +14,7 @@ function Navbar() {
 		</div>
 		<div className='navbarRight'>
  		<Link className='TextNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/About">About</Link>
- 		<Link className='TextNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/Work">Work</Link>
+ 		<Link className='TextNavbar' data-aos="fade-in" data-aos-delay="40" data-aos-duration="500" data-aos-easing="linear" to="/">Work</Link>
 		</div>
  	</div>
  </div>

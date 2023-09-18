@@ -1,6 +1,5 @@
 import '../App.sass';
 import React from 'react'
-import SocialMedia from './SocialMedia';
 import { Outlet } from 'react-router-dom';
 
 export default function Home() {
