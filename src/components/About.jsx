@@ -11,7 +11,8 @@ import { Outlet } from 'react-router-dom';
 
 				<section>
 					<div class="Foreground centre">
-						<p class="">à venir...</p>
+						<br />
+						<p class="SubText">à venir...</p>
 					</div>
 				</section>
 
